@@ -10,8 +10,9 @@
 4. Data Flair: https://data-flair.training/blogs/constructor-in-java/
 5. Java 2 Blog: https://java2blog.com/constructor-java/
 6. Codes Dope: https://www.codesdope.com/course/java-classes-and-objects/
-7. 7. Java T Point: https://www.javatpoint.com/java-constructor
+7. Java T Point: https://www.javatpoint.com/java-constructor
 8. Tech Beamers: https://techbeamers.com/java-constructor/
+9. Stack Overflow on Setters vs. Constructors: https://stackoverflow.com/questions/19359548/setter-methods-or-constructors
 
 #### Prezi Presentation: https://prezi.com/p/edit/-4qv0zkygrh_/
 

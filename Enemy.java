@@ -1,9 +1,13 @@
 package com.java.constructordemo;
 
+
 public class Enemy {
     private int health;
     public String name;
+    private int strength;
+public Enemy(){
 
+}
     public void talk(){
         System.out.println("I'm your enemy; you're doomed!");
     }

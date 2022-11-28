@@ -7,7 +7,7 @@ class DC {
 public class MainConstructorDemos {
     public static void main(String[] args) {
         int bankR = 0;
-        Scanner sc = new Scanner(System.in);
+
         //Default Constructor
 //        DefaultConstructor dc = new DefaultConstructor(); //object
 //        dc.setName("Sam");
@@ -28,20 +28,21 @@ public class MainConstructorDemos {
 //        System.out.println("6th-" + pc.getAge());
 //        pc.workOnAssignment(/* pc.name, pc.age, 2 */);
 //        //Parameterized Constructor with User Input
-//        Scanner sc = new Scanner(System.in);
-//        String name;
-//        int age, quality;
-//        System.out.println("Enter your name, age, and quality of work:\n(1-poor; 2-average; 3-exceptional); \npress 'Enter' after both: ");
-//        name = sc.nextLine();
-//        age = sc.nextInt();
-//        quality = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        String name;
+        int age, quality;
+        System.out.println("Enter your name, age, and quality of work:\n(1-poor; 2-average; 3-exceptional); \npress 'Enter' after both: ");
+        name = sc.nextLine();
+        age = sc.nextInt();
+        quality = sc.nextInt();
+
  //       ============================================================
-//        ParameterizedConstructorUserInputScanner pCUIS1=new ParameterizedConstructorUserInputScanner(name, age, quality);
-//        System.out.println(pCUIS1.name); //calls name directly from Constructor
-//        System.out.println(pCUIS1.age); //calls age directly from Constructor
-//        System.out.println(pCUIS1.getName()); //calls name from method
-//        System.out.println(pCUIS1.getAge()); //calls age from method
-//        System.out.println("The quality of " + pCUIS1.name + "'s work is: " + pCUIS1.workOnAssignment(quality) + ".");
+        ParameterizedConstructorUserInputScanner pCUIS1 = new ParameterizedConstructorUserInputScanner(name, age, quality);
+        System.out.println(pCUIS1.name); //calls name directly from Constructor
+        System.out.println(pCUIS1.age); //calls age directly from Constructor
+        System.out.println(pCUIS1.getName()); //calls name from method
+        System.out.println(pCUIS1.getAge()); //calls age from method
+        System.out.println("The quality of " + pCUIS1.name + "'s work is: " + pCUIS1.workOnAssignment(quality) + ".");
 // ====================================================================
 //        DefaultConstructor dc1 = new DefaultConstructor();
 //        DefaultConstructor dc2 = new DefaultConstructor();

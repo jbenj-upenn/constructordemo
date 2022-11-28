@@ -1,9 +1,8 @@
 package com.java.constructordemo;
 
 public class NoArgsConstructor {
-
-    String name;
-    int age;
+    String name = "Sarah";
+    int age = 25;
 
     public NoArgsConstructor()
     {

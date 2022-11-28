@@ -1,11 +1,19 @@
 package com.java.constructordemo;
 
 public class ParameterizedConstructor /*extends NoArgsConstructor*/ {
-
     String name;
     int age;
 
-    public ParameterizedConstructor(String name,int age)
+    public ParameterizedConstructor(){
+
+    }
+    public ParameterizedConstructor(String n,int age)
+    {
+        System.out.println("*******Say hello to the Parameterized constructor********");
+        this.name=n;
+        this.age=age;
+    }
+    public ParameterizedConstructor(int age, String name)
     {
         System.out.println("*******Say hello to the Parameterized constructor********");
         this.name=name;

@@ -5,10 +5,10 @@ public class DefaultConstructor {
     int age = 25; //changes to static variables reflect in all objects of the class; changes to instance variables only reflect in the class that changes it
     int quality = 1;
     //======================================================
-    static final int STARTING_CHIP_STACK = 200;
-    int bet = 0;
-    int currentChipStack = STARTING_CHIP_STACK;
-    int bankRoll = 5000;
+//    static final int STARTING_CHIP_STACK = 200;
+//    int bet = 0;
+//    int currentChipStack = STARTING_CHIP_STACK;
+//    int bankRoll = 5000;
 
 //    public DefaultConstructor(int bankR, Scanner sc){
 //        int reset = 0;
